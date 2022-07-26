@@ -1,0 +1,44 @@
+:root {background-color: rgb(199, 197, 197);}
+
+nav {margin: 40px 10px;
+    background-color: #e64a19;
+    }
+
+nav ul {padding: 0;
+        margin: 0;
+        list-style: none;
+        position: relative;
+       }
+
+nav ul li {
+    display: inline-block;
+    background-color: #e64a19;
+}
+
+.link {display: block;
+      padding: 0 10px;
+      color:beige;
+      font-size: 20px;
+      line-height: 60px;
+      text-decoration: none;
+    }
+
+nav a:hover {background-color: #863c00fa;}
+
+
+nav ul ul {display: none;
+        position: absolute;
+        }
+
+nav ul li:hover > ul {display: inherit;}
+
+nav ul ul li {min-width: 170px;
+            display: list-item;
+            position: relative;
+        }
+
+nav ul ul ul {position: absolute;
+            top: 0;
+            left: 100%;
+        }
+
